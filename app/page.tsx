@@ -49,8 +49,8 @@ export default function Home() {
       <div className="absolute bottom-20 right-10 w-40 h-40 bg-[#1364DB] rounded-full opacity-10 blur-3xl"></div>
 
       {/* Header Section */}
-      <div className="text-center mb-6 sm:mb-8 md:mb-10 relative z-10 w-full max-w-2xl flex-shrink-0">
-        <div className="inline-block mb-3 sm:mb-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-[#1364DB] text-white rounded-full text-xs font-bold tracking-widest uppercase">
+      <div className="text-center mb-6 sm:mb-8 md:mb-10 relative z-10 w-full max-w-2xl flex-shrink-0 pt-2 sm:pt-4">
+        <div className="inline-block mb-2 sm:mb-3 md:mb-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-[#1364DB] text-white rounded-full text-xs font-bold tracking-widest uppercase">
           Creator Status
         </div>
 
@@ -61,7 +61,7 @@ export default function Home() {
           Creatorverse Rank
         </h2>
 
-        <p className="mt-4 sm:mt-6 md:mt-8 text-[#232324] text-sm sm:text-base md:text-lg font-medium max-w-xl mx-auto leading-relaxed">
+        <p className="mt-4 sm:mt-6 md:mt-8 text-[#232324] text-sm sm:text-base md:text-lg font-medium max-w-2xl mx-auto leading-relaxed md:whitespace-nowrap">
           Discover your tier and see how you rank in the Creatorverse community
         </p>
       </div>
